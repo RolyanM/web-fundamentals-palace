@@ -4,9 +4,60 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Web Palace</title>
 </head>
 <body>
-  <h1>The Web Fundamentals Palace</h1>
+  <!--Header to tell people what its about-->
+  <header>  
+    <h1>The Web Fundamentals Palace</h1>
+    <p>Hover over each family member to peek into the lives of those living</p>
+  </header>
+  <!-- Main content for the king and queen-->
+  <main>
+    <section id="king-and-queen"> <!-- okay using divs here in terms of semantics-->
+      <div class="card">
+        <h2>King Kieran</h2>
+        <img src="./images/king.jpg" alt="King Kieran">
+        <p>My name is Kieran and I am the King! I like karate and kitesurfing. My son is Peter, he is the heir to my throne.</p>
+      </div>
+      <div class="card">
+        <h3>Queen Queenie</h3>
+        <img src="./images/queen.jpg" alt="Queen Queenie">
+        <p>My name is Queenie and I am the Queen!
+          click here to view my fav quice recipe:
+          <a href="https://www.bbc.co.uk/food/recipes/quichelorraine_71987">Nice Quiche</a>  
+        </p>
+      </div>
+    </section>
+<!-- Main section for the children-->
+    <section id="children">
+      <div class="card">
+      <h4>Prince Peter</h4>
+      <img src="./images/prince-peter.jpg" alt="Prince Peter">
+      <p>I am Prince Peter. I like Pizza.</p>
+      </div>
+      <div class="card">
+        <h5>Princess Penelope</h5>
+        <img src="./images/princess-penelope.jpg" alt="Princess Penelope">
+        <p>I am Princess Penelope. I like lots of think...</p>
+        <ul>
+          <li>Piloting a plane</li>
+          <li>Plotting to kill the King</li>
+          <li>Practicing making potions </li>
+          <li>Pirating on the 7 seas. Yarrrr</li>
+        </ul>
+      </div>
+    </section>
+<!--Susan section-->
+    <section id="susan">
+      <div class="card">
+        <h6>Susan</h6>
+        <img src="./images/susan.jpg" alt="Susan">
+        <p>I am Susan, I am the concubine of King Kieran and the true mother to the illegitimate Princess.</p>
+      </div>
+    </section>
+
+  </main>
+
 </body>
 </html>
